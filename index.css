@@ -1,0 +1,81 @@
+.Button {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+    background-color: cadetblue;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+}
+
+.xWins {
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+}
+
+span.xWinsTime {
+    font-size: 19px;
+    font-weight: 600;
+    color: #515456;
+}
+
+span.oWinsTime {
+    font-size: 19px;
+    font-weight: 600;
+    color: #515456;
+}
+
+.parentTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridTop{
+    border-color: "#f44336";
+    border: '1px solid red';
+    display: flex;
+    flex-direction: column;
+}
+
+.lightBackground {
+    background-color: 00FFFF
+}
+
+.columnsStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowStyle {
+    display: flex;
+}
+
+.darkBackground {
+    background-color: F0FFFF
+}
+
+.box {
+    width: 100;
+    height: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.cross{
+    color: #f90;
+    font-size: 2.5em;
+    border-radius: 5px;
+    line-height: 100px;
+}
